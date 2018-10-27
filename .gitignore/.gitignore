@@ -1,0 +1,77 @@
+<!-- Вариант №2 Таламанюк-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			transition: all .2s;
+			margin: 0; padding: 0;
+		}
+
+		.block_1, .block_2, .block_3{
+			position: fixed;
+			width: 80px; height: 80px;
+		}
+		
+		.block_1{
+			background: #f32248;
+		}
+		.block_2{
+			background: #44f3f3;
+			top: 40px; left: 40px;
+		}
+		.block_3{
+			background: #5fde4f;
+			top: 80px; left: 80px;
+		}
+
+		.main *{
+			display: block;
+		}
+
+		.main{
+			background: #88ff43;
+			width: 500px; height: 200px;
+			top: 700px;
+		}
+
+		.media{
+			margin-top: 200px;
+		}
+
+		.item{
+			background: #555fff;
+			width: 200px; height: 100px;
+		}
+
+		@media only screen and (max-width: 700px){
+			.item{
+				width: 100px; height: 100px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="block_1"></div>
+	<div class="block_2"></div>
+	<div class="block_3"></div>
+	
+	<div class="main">
+		<div class="ch_block_1"></div>
+		<div class="ch_block_2"></div>
+		<div class="ch_block_3"></div>
+	</div>
+	<div class="media">
+		<div class="item"></div>
+	</div>
+</body>
+</html>
+
+
+
+<!-- #id1 + .cl2 - 110
+	 #id ~ li - 101
+-->
